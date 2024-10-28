@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Basic styling for the header */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation links */
+        .nav-links {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form styling */
+        .contact-form {
+            background-color: white;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-top: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Location section */
+        .location {
+            text-align: center;
+            margin: 20px;
+        }
+        .location img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <div class="header">
+        <h1>Contact Us</h1>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="nav-links">
+        <a href="index.html ">Home</a> | <a href="about.html">About</a> | <a href="#">Contact</a>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Location Section -->
+    <div class="location">
+        <h2>Our Location</h2>
+        <img src="your-image-url.jpg" alt="Location Image">
+    </div>
+</body>
+</html>
